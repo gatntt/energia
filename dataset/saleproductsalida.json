@@ -1,0 +1,23 @@
+{
+	"name": "saleproductsalida",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "energia"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "datafactory",
+				"fileSystem": "energia"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
