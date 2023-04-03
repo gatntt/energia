@@ -1,0 +1,9 @@
+{
+	"name": "gatenergia",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "82c11bb5-00d0-4aed-a874-f25f0394df91",
+		"tenantId": "3048dc87-43f0-4100-9acb-ae1971c79395"
+	}
+}
